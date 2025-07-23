@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #111;
-  color: #f1f1f1;
+  background-color: #1a1a1a;
+  color: #f3f0f0;
   line-height: 1.6;
   padding: 30px;
 }
@@ -15,82 +15,93 @@ body {
 .container {
   max-width: 800px;
   margin: 0 auto;
-  background-color: #1c1c1c;
-  padding: 40px 40px;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-color: #2a2a2a;
+  padding: 45px 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(255, 105, 135, 0.5);
+}
+
+header {
+  text-align: left;
+  margin-bottom: 40px;
 }
 
 header img {
-  max-width: 180px;
-  margin-bottom: 30px;
+  max-width: 160px;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(255, 105, 135, 0.6);
 }
 
 h1 {
-  font-size: 2rem;
-  color: #FF3B3F;
+  font-size: 2.3rem;
+  color: #ff6f91;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   text-align: left;
 }
 
 .subtitle {
-  font-size: 1.1rem;
-  color: #ccc;
-  margin-bottom: 30px;
+  font-size: 1.15rem;
+  color: #e4dfe4;
+  margin-bottom: 35px;
   text-align: left;
 }
 
 .benefits ul {
   list-style: none;
   padding-left: 0;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .benefits li {
-  font-size: 1.05rem;
-  margin-bottom: 12px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
   position: relative;
-  padding-left: 25px;
+  padding-left: 28px;
+  color: #f9f9f9;
 }
 
 .benefits li::before {
   content: "✔";
   position: absolute;
   left: 0;
-  color: #FF3B3F;
+  color: #ff6f91;
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .price {
-  font-size: 2.2rem;
-  color: #FF3B3F;
+  font-size: 2.4rem;
+  color: #ff6f91;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   text-align: left;
 }
 
 .btn-checkout {
   display: inline-block;
-  background: linear-gradient(135deg, #e01023, #b20a17);
-  padding: 14px 30px;
+  background: linear-gradient(135deg, #ff6f91, #ff3b6f);
+  padding: 16px 38px;
   color: white;
-  font-size: 1.1rem;
-  font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: 700;
   border-radius: 50px;
   text-decoration: none;
-  box-shadow: 0 4px 15px rgba(224, 16, 35, 0.4);
+  box-shadow: 0 5px 20px rgba(255, 111, 145, 0.6);
   transition: all 0.3s ease;
 }
 
 .btn-checkout:hover {
-  background: linear-gradient(135deg, #b20a17, #e01023);
-  transform: translateY(-2px);
+  background: linear-gradient(135deg, #ff3b6f, #ff6f91);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(255, 59, 111, 0.8);
 }
 
 footer {
-  margin-top: 50px;
+  margin-top: 55px;
   text-align: left;
   font-size: 0.8rem;
-  color: #888;
+  color: #999;
 }
