@@ -6,11 +6,10 @@
 
 body {
   background: linear-gradient(135deg, #fff5f7 0%, #ffe9ec 100%);
+  margin: 0;
   padding: 30px;
   font-family: 'Montserrat', sans-serif;
   color: #4a3a33;
-  line-height: 1.6;
-  margin: 0;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -19,7 +18,7 @@ body {
 
 .container {
   max-width: 800px;
-  background-color: #f9f0ee; /* bege suave para o conteúdo */
+  background-color: #ffffff; /* fundo branco puro */
   padding: 45px 50px;
   border-radius: 20px;
   box-shadow: 0 6px 15px rgba(255, 127, 143, 0.3);
