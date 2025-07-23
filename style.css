@@ -5,8 +5,8 @@
 }
 
 body {
-  background: linear-gradient(135deg, #1a1a1a 0%, #121b22 100%);
-  color: #f9f6f5;
+  background: linear-gradient(135deg, #fff0f3 0%, #ffe6ea 100%);
+  color: #4a3a33; /* texto em marrom escuro para contraste suave */
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   padding: 30px;
