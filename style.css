@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #1a1a1a;
-  color: #f3f0f0;
+  background-color: #2B2B2B; /* cinza escuro suave */
+  color: #F9F6F5; /* branco off-white */
   line-height: 1.6;
   padding: 30px;
 }
@@ -15,10 +15,10 @@ body {
 .container {
   max-width: 800px;
   margin: 0 auto;
-  background-color: #2a2a2a;
+  background-color: #F0D6C9; /* bege claro */
   padding: 45px 50px;
   border-radius: 20px;
-  box-shadow: 0 0 30px rgba(255, 105, 135, 0.5);
+  box-shadow: 0 0 30px rgba(255, 127, 143, 0.5); /* sombra rosada suave */
 }
 
 header {
@@ -31,12 +31,12 @@ header img {
   display: block;
   margin-bottom: 10px;
   border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(255, 105, 135, 0.6);
+  box-shadow: 0 4px 15px rgba(255, 127, 143, 0.6);
 }
 
 h1 {
   font-size: 2.3rem;
-  color: #ff6f91;
+  color: #FF7F8F; /* rosa coral */
   font-weight: 700;
   margin-bottom: 20px;
   text-align: left;
@@ -44,7 +44,7 @@ h1 {
 
 .subtitle {
   font-size: 1.15rem;
-  color: #e4dfe4;
+  color: #5A4A43; /* marrom médio, inspirado no sombreado da pele */
   margin-bottom: 35px;
   text-align: left;
 }
@@ -60,21 +60,21 @@ h1 {
   margin-bottom: 15px;
   position: relative;
   padding-left: 28px;
-  color: #f9f9f9;
+  color: #4A3A33; /* marrom escuro para texto */
 }
 
 .benefits li::before {
   content: "✔";
   position: absolute;
   left: 0;
-  color: #ff6f91;
+  color: #FF7F8F; /* rosa coral */
   font-weight: bold;
   font-size: 1.2rem;
 }
 
 .price {
   font-size: 2.4rem;
-  color: #ff6f91;
+  color: #FF7F8F; /* rosa coral */
   font-weight: 700;
   margin-bottom: 35px;
   text-align: left;
@@ -82,26 +82,26 @@ h1 {
 
 .btn-checkout {
   display: inline-block;
-  background: linear-gradient(135deg, #ff6f91, #ff3b6f);
+  background: linear-gradient(135deg, #FF7F8F, #FF586A); /* tons rosados */
   padding: 16px 38px;
-  color: white;
+  color: #F9F6F5;
   font-size: 1.2rem;
   font-weight: 700;
   border-radius: 50px;
   text-decoration: none;
-  box-shadow: 0 5px 20px rgba(255, 111, 145, 0.6);
+  box-shadow: 0 5px 20px rgba(255, 127, 143, 0.6);
   transition: all 0.3s ease;
 }
 
 .btn-checkout:hover {
-  background: linear-gradient(135deg, #ff3b6f, #ff6f91);
+  background: linear-gradient(135deg, #FF586A, #FF7F8F);
   transform: translateY(-3px);
-  box-shadow: 0 8px 30px rgba(255, 59, 111, 0.8);
+  box-shadow: 0 8px 30px rgba(255, 88, 106, 0.8);
 }
 
 footer {
   margin-top: 55px;
   text-align: left;
   font-size: 0.8rem;
-  color: #999;
+  color: #6E5A50; /* marrom suave */
 }
