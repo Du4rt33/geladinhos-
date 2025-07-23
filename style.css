@@ -5,13 +5,12 @@
 }
 
 body {
+  background: linear-gradient(135deg, #1a1a1a 0%, #121b22 100%);
+  color: #f9f6f5;
   font-family: 'Montserrat', sans-serif;
-  background-color: #2B2B2B; /* cinza escuro suave */
-  color: #F9F6F5; /* branco off-white */
   line-height: 1.6;
   padding: 30px;
 }
-
 .container {
   max-width: 800px;
   margin: 0 auto;
