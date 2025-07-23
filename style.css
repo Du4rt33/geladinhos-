@@ -10,14 +10,11 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #f1f1f1;
-  color: #222;
+  background-color: #111; /* preto elegante */
+  color: #f1f1f1;          /* texto claro */
   line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   padding: 20px;
 }
-
 .container {
   max-width: 900px;
   margin: 0 auto;
