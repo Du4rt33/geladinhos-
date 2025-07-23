@@ -1,4 +1,3 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -7,57 +6,39 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background: #111;
-  color: #eee;
+  background-color: #111;
+  color: #f1f1f1;
   line-height: 1.6;
-  padding: 20px;
+  padding: 30px;
 }
 
 .container {
   max-width: 800px;
   margin: 0 auto;
-  background: #1c1c1c;
-  padding: 40px 30px;
+  background-color: #1c1c1c;
+  padding: 40px 40px;
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.5);
-}
-
-header {
-  text-align: center;
-  margin-bottom: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 header img {
-  max-width: 220px;
+  max-width: 180px;
+  margin-bottom: 30px;
 }
 
 h1 {
   font-size: 2rem;
   color: #FF3B3F;
-  text-align: center;
-  margin-bottom: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: left;
 }
 
 .subtitle {
-  text-align: center;
+  font-size: 1.1rem;
   color: #ccc;
   margin-bottom: 30px;
-}
-
-.video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  margin-bottom: 30px;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.video-wrapper iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border: none;
+  text-align: left;
 }
 
 .benefits ul {
@@ -67,10 +48,10 @@ h1 {
 }
 
 .benefits li {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   margin-bottom: 12px;
-  padding-left: 20px;
   position: relative;
+  padding-left: 25px;
 }
 
 .benefits li::before {
@@ -82,35 +63,34 @@ h1 {
 }
 
 .price {
-  font-size: 2.4rem;
-  font-weight: bold;
-  text-align: center;
+  font-size: 2.2rem;
   color: #FF3B3F;
+  font-weight: 700;
   margin-bottom: 30px;
+  text-align: left;
 }
 
 .btn-checkout {
-  display: block;
-  text-align: center;
+  display: inline-block;
   background: linear-gradient(135deg, #e01023, #b20a17);
-  padding: 16px;
-  border-radius: 50px;
+  padding: 14px 30px;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
+  border-radius: 50px;
   text-decoration: none;
-  box-shadow: 0 4px 20px rgba(224, 16, 35, 0.5);
+  box-shadow: 0 4px 15px rgba(224, 16, 35, 0.4);
   transition: all 0.3s ease;
 }
 
 .btn-checkout:hover {
   background: linear-gradient(135deg, #b20a17, #e01023);
-  transform: translateY(-3px);
+  transform: translateY(-2px);
 }
 
 footer {
-  text-align: center;
-  margin-top: 40px;
+  margin-top: 50px;
+  text-align: left;
   font-size: 0.8rem;
-  color: #777;
+  color: #888;
 }
