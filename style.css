@@ -18,6 +18,7 @@ body {
 
 .container {
   max-width: 1600px;
+  width: 75%;
   background-color: #ffffff; /* fundo branco puro */
   padding: 45px 50px;
   border-radius: 20px;
